@@ -36,7 +36,7 @@ jobs:
           DB_HOST: 127.0.0.1
           DB_PORT: 5432
         run: |
-          pythom -m flake8 backend/
+          python -m flake8 backend/
           cd backend/
           python manage.py test
 
