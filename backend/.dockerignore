@@ -1,6 +1,5 @@
 venv
 .git
 .github
-.env
 .idea
 .vscode
